@@ -1,0 +1,93 @@
+body {
+  width: 1000px;
+  margin: auto;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  text-align: center;
+}
+        
+#amigo{
+  margin-left: 50px;
+  }
+        
+header div {
+float: right;
+margin-top: 60px;
+}
+
+header div a {
+  color: darksalmon;
+  border: solid thin darksalmon;
+  border-radius: 25px;
+  padding: 15px;
+  text-decoration: none;
+}
+
+header div p {
+  color: gray;
+  text-align: left;
+  margin-left: 40px;
+}
+
+nav {
+  display: block;
+  text-align: center;
+  margin-bottom: 10px;
+  overflow: auto;
+  background-color: black;
+}
+
+nav a {
+  display: inline-block;
+  width: 18%;
+  padding: 8px;
+  background-color: black;
+  color: white;
+  text-decoration: none;
+}
+
+#home {
+  background-color: red;
+  border: solid 1px black;
+}
+
+aside {
+  width: 230px;
+  float: left;
+}
+
+aside audio {
+  max-width: 100%;
+}
+
+aside video {
+  max-width: 100%;
+}
+
+main {
+  width: 500px;
+  float: left;
+  margin-left: 12px;
+  margin-right: 12px;
+  text-align: justify;
+}
+
+main figure {
+  margin: 0;
+}
+
+main h1 {
+  color: red;
+  border-bottom: solid;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  padding: 5px;
+  clear: both;
+  text-align: center;
+  border-top: solid 5px gray;
+}
